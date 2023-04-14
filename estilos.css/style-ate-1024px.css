@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-decoration: none;
+    overflow-x: hidden;
+}
+
+/*-------------------------------------------------*/
+@media (max-width: 1024px){
+    .titulos{
+        max-width: 60%;
+        text-align: center;
+        margin: auto;
+        padding-top: 20px;
+        color: rgb(126, 122, 122);
+        font-weight: bold;
+    } .titulos p {
+        padding: 20px 0;
+    }
+    /*-------------------------------------------------*/
+    
+    
+    .cabecalho{
+        background-color: rgb(120, 183, 162);
+        width: 100%;
+    }
+    .limita-largura-cabecalho{
+        width: 98%;
+        padding: 0 10px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .lista-cabecalho{
+        display: flex;
+        list-style: none;
+        
+    }.lista-cabecalho li a{
+        color: white;
+        font-weight: bold;
+    }
+    .logo img{
+        width: 60%;
+    }
+    
+    /*-------------------------------------------------*/
+    /*Fim do cabeçalho*/
+    /*-------------------------------------------------*/
+    
+    
+    .banner{
+        background-image: url(../assets/recepcao.png);
+        /* background-position: center; */
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 50vh;
+    }
+    .imagem-banner{
+        color: white;
+        position: absolute;
+        top: 30vh;
+        left: 3%;
+    }
+    
+    
+    /*-------------------------------------------------*/
+    /*Fim do banner*/
+    /*-------------------------------------------------*/
+    
+    
+    .sobre-a-clinica{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+    }
+    .lista-sobre{
+        color: rgb(126, 122, 122);
+    } .lista-sobre h3{
+        margin-bottom: 20px;
+    }
+    
+    
+    /*-------------------------------------------------*/
+    /*Fim do sobre a clínica*/
+    /*-------------------------------------------------*/
+    
+    
+    .limita-largura-especialidades{
+        width: 100%;
+        margin: auto;
+    }
+    .imagens-especialidades{
+        display: flex;
+        text-align: center;
+        
+    }
+    .imagens-especialidades figure{
+        background-color: white;
+        box-shadow: 0 0 15px black;
+        margin: 0 20px;
+        border-radius: 5px;
+        
+    }
+    .imagens-especialidades figure img{
+        border-radius: 5px;
+        width: calc(100%);
+    }
+    .imagens-especialidades figure figcaption{
+        padding: 10px 0;
+    }
+    
+    
+    /*-------------------------------------------------*/
+    /*Fim do especialidades*/
+    /*-------------------------------------------------*/
+    
+    
+    .botao-horarios{
+        width: fit-content;
+        margin: 20px auto;
+    }
+    .botao-horarios button{
+        padding: 10px 20px;
+        background-color: rgb(29, 172, 172);
+        border: none;
+        color: white;
+        font-weight: bold;
+        font-size: 16px;
+        cursor: pointer;
+    }
+    
+    
+    /*-------------------------------------------------*/
+    /*Fim do botão horarios*/
+    /*-------------------------------------------------*/
+    
+    .limita-largura-mapa{
+        width: 100%;
+    }
+    .mapa{
+        width: 100%;
+    }
+    
+    .mapa iframe{
+        width: 99%;
+        height: 40vh;
+        margin: 0 10px 50px 10px;
+    }
+    
+    
+    /*-------------------------------------------------*/
+    /*Fim do mapa*/
+    /*-------------------------------------------------*/
+    
+    
+    .rodape{
+        background-color: rgb(22, 99, 92);
+        text-align: center;
+        padding: 20px 0;
+    }
+    .logo-fundo img{
+        width: 150px;
+    }
+    .lista-fundo li{
+        line-height: 32px;
+    }
+    .lista-fundo li a{
+        color: white;
+    }
+}
